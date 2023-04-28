@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .featured-album {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .featured-album img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .featured-album h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .featured-album p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .featured-album a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .popular-songs {
+    margin-bottom: 50px;
+  }
+  
+  .popular-songs h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .popular-songs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .popular-songs li {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 10vh;
+  }
+  
+  .popular-songs li img {
+    width: 100%;
+    height: 35vh;
+  }
+  
+  .song-info {
+    padding: 10px;
+    
+  }
+  
+  .song-info h3 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .song-info p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .song-info a {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
