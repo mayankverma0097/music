@@ -11,13 +11,28 @@ body {
   header {
     background-color: #000;
     color: #fff;
-    text-align: center;
-    padding: 20px;
+    /* text-align: center; */
+    height: 10vh;
+    /* padding: 20px; */
   }
   
+  header  ul li{
+    display: inline-block;
+    margin-top: 1vh;
+     
+  }
+  header ul li a{
+    margin-left: 5vw;
+    font-size: 5vmin;
+    text-decoration: none;
+    color: white;
+  
+    
+  }
   h1 {
     font-size: 36px;
-    margin: 0;
+    margin-left: 8vw;
+    margin-top: 10vh;
   }
   
   main {
@@ -124,4 +139,30 @@ body {
     color: #fff;
     padding: 20px;
   }
+  
+  /* //responsive */
+  @media only screen and (max-width: 600px)
+  {
+     .popular-songs ul {
+      display: block;
+     }
+     .popular-songs ul li{
+      margin-left: 10vw;
+      width: 60vw;
+     }
+     .popular-songs ul li audio{
+      width: 100%;
+     }
+     header{
+      height: 30vh;
+     }
+     header ul li{
+      display: block;
+      /* text-align: center; */
+     }
+     header ul li a{
+      margin-left: 30vw;
+      
+     }
+    }
   
